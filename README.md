@@ -1,4 +1,4 @@
-# Rescate en la Selva Experimental
+# Rescate en la Selva
 
 Videojuego 2D desarrollado con Phaser.js y JavaScript.
 
