@@ -1,0 +1,53 @@
+export const BOSS_DATA = {
+  1: {
+    level: 1,
+    name: 'Murk',
+    subtitle: 'Murcielago venenoso',
+    health: 90,
+    spriteKey: 'murk_rest',
+    idleAnim: 'murk_fly',
+    attackAnim: 'murk_attack',
+    x: 760,
+    y: 285,
+    scale: 0.68,
+    body: { width: 135, height: 110, offsetY: 105 },
+    pattern: 'venomStatic',
+    touchDamage: 8,
+    attackInterval: 5000,
+    intro: 'Nivel 1: Murk tiene mas vida. Sube y baja, lanza 3 bolas de veneno y solo descansa por momentos.'
+  },
+  2: {
+    level: 2,
+    name: 'Brakus',
+    subtitle: 'Cui salvaje mutado',
+    health: 130,
+    spriteKey: 'brakus_rest',
+    idleAnim: null,
+    attackAnim: null,
+    x: 775,
+    y: 470,
+    scale: 0.68,
+    body: { width: 185, height: 125, offsetY: 105 },
+    pattern: 'fireStatic',
+    touchDamage: 12,
+    attackInterval: 5000,
+    intro: 'Nivel 2: Brakus tiene mas vida. Se queda quieto y cada 5 segundos lanza una cascada de fuego.'
+  },
+  3: {
+    level: 3,
+    name: 'Dr. Mortis',
+    subtitle: 'Cientifico loco',
+    health: 170,
+    spriteKey: 'dr_idle',
+    idleAnim: null,
+    attackAnim: 'dr_aim',
+    x: 770,
+    y: 470,
+    scale: 0.58,
+    body: { width: 85, height: 185, offsetY: 55 },
+    pattern: 'laserStatic',
+    touchDamage: 10,
+    attackInterval: 5300,
+    intro: 'Nivel 3: el Dr. Mortis tiene mas vida. Dispara un rayo cada 5 segundos y hace caer 3 rocas.'
+  }
+};

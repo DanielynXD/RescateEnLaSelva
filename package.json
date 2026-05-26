@@ -1,0 +1,20 @@
+{
+  "name": "rescate-selva-phaser",
+  "version": "1.0.0",
+  "description": "Videojuego 2D con Phaser.js: Leo rescata a Valeria enfrentando tres jefes en una selva experimental.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "vite": "latest",
+    "phaser": "latest"
+  },
+  "devDependencies": {},
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
