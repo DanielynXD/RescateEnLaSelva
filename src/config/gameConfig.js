@@ -3,7 +3,7 @@ export const GAME_HEIGHT = 540;
 export const GROUND_Y = 470;
 
 export const PLAYER_CONFIG = {
-  health: 100,
+  health: 120,
   speed: 245,
   jumpVelocity: -560,
   maxJumps: 2,
