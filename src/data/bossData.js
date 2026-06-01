@@ -10,7 +10,7 @@ export const BOSS_DATA = {
     x: 760,
     y: 285,
     scale: 0.68,
-    body: { width: 135, height: 110, offsetY: 105 },
+    body: { width: 127, height: 110, offsetY: 105 },
     pattern: 'venomStatic',
     touchDamage: 8,
     attackInterval: 5000,
