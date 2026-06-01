@@ -31,7 +31,7 @@ export default class AudioManager {
 
       this.music = this.scene.sound.add('music_jungle', {
         loop: true,
-        volume: 0.13
+        volume: 0.21
       });
       this.music.play();
     } catch (error) {
