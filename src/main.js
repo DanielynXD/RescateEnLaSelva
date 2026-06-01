@@ -10,6 +10,16 @@ import WinScene from './scenes/WinScene.js';
 
 import './style.css';
 
+// --- Mensaje de rotación inyectado por JS para no tocar el HTML ---
+const rotateMsg = document.createElement('div');
+rotateMsg.id = 'rotate-msg';
+rotateMsg.innerHTML = `
+  <div class="rotate-icon">📱</div>
+  <p>Gira tu celular para jugar</p>
+`;
+document.body.appendChild(rotateMsg);
+
+// --- Manejo de errores globales ---
 window.addEventListener('error', (event) => {
   const box = document.createElement('div');
   box.style.position = 'fixed';
@@ -40,8 +50,10 @@ const config = {
     smoothStep: true
   },
   scale: {
-    mode: Phaser.Scale.FIT,
-    autoCenter: Phaser.Scale.CENTER_BOTH
+    mode: Phaser.Scale.FIT,        // Escala manteniendo la proporción 16:9
+    autoCenter: Phaser.Scale.CENTER_BOTH, // Centra horizontal y verticalmente
+    width: GAME_WIDTH,
+    height: GAME_HEIGHT,
   },
   physics: {
     default: 'arcade',
