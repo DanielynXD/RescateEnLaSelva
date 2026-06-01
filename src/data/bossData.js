@@ -3,7 +3,7 @@ export const BOSS_DATA = {
     level: 1,
     name: 'Murk',
     subtitle: 'Murcielago venenoso',
-    health: 90,
+    health: 100,
     spriteKey: 'murk_rest',
     idleAnim: 'murk_fly',
     attackAnim: 'murk_attack',
